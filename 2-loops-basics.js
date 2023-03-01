@@ -29,6 +29,6 @@ for (let i = 0; i < scores.length; i++){
 // console.log(aGrades)
 
 // finds scores over 90 using filter
-let goodGrades = scores.filter(score => score > 89)
+let goodGrades = scores.filter(x => x > 89)
 
 // console.log(goodGrades)
