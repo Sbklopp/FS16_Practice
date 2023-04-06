@@ -21,10 +21,17 @@ let curve = scores.map(x => x < 59 ? x + 11 : x)
 let num = 2
 
 //ternary operator
-num > 3 ? console.log('more than 3') : console.log('not more than 3')
+// num > 3 ? console.log('more than 3') : console.log('not more than 3')
 
 
 // subtract 10 points from the A scores
 let fail = scores.map(x => x > 89 ? x - 10 : x)
 // console.log(fail)
 
+
+let guy = {
+    name: "Brooks",
+    age: 31
+}
+
+// console.log(guy.name)

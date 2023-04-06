@@ -4,6 +4,9 @@
 let scores = [92, 79, 64, 97, 58, 83, 49, 73, 90];
 
 
+console.log(scores[1])
+
+
 
 // we can find the size of the array by using the .length method
 // console.log(scores.length);
@@ -17,6 +20,9 @@ const firstScore = scores[0];
 const secondScore = scores[1];
 const thirdScore = scores[2]
 
-// console.log(firstScore)
+// scores[0] = scores[0] + 3
+// console.log(scores)
 
-console.log(scores[3])
+
+
+// console.log(scores[3])
